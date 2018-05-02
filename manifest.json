@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Image data uri saver",
+  "short_name": "Image data",
+  "description": "Converts images to a data uri",
+  "version": "0.0.1",
+  "minimum_chrome_version": "38",
+  "permissions": [
+    "contextMenus", 
+    "tabs"],
+  "icons": {
+    "16": "assets/svg.png"
+  },
+  "background": {"page": "background.html"}
+}
